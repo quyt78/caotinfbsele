@@ -1,0 +1,21 @@
+﻿<Window x:Class="Selenium.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Selenium"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600">
+	<Grid>
+		<Button Content="Bắt đầu" Click="Button_Click" Margin="45,302,468.6,88" Width="80" Height="30"></Button>
+		<TextBox Name="txtAccount" Text="canquy@hotmail.com" HorizontalAlignment="Left" Height="25" Margin="18,101,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="152"/>
+		<PasswordBox Name="txtPassword" Password="quyt7890"  MaxLength="20" PasswordChar="X" Margin="18,167,423.6,227"/>
+		<TextBox  x:Name="tbMultiLine"  TextWrapping="Wrap"  AcceptsReturn="True"  VerticalScrollBarVisibility="Visible" Margin="182,76,34.6,65" 
+				  Text="https://www.facebook.com/groups/124214154801817&#xA;https://www.facebook.com/groups/1631655097086224&#xA;https://www.facebook.com/groups/202939929831033&#xA;https://www.facebook.com/groups/1960056897627475&#xA;https://www.facebook.com/groups/1607586619328874&#xA;https://www.facebook.com/groups/270531640004746&#xA;https://www.facebook.com/groups/587968781299992&#xA;https://www.facebook.com/groups/1938997203076987&#xA;https://www.facebook.com/groups/178154875888605&#xA;https://www.facebook.com/groups/944558715966748&#xA;https://www.facebook.com/groups/597536160269303&#xA;https://www.facebook.com/groups/1923947771190295&#xA;https://www.facebook.com/groups/400053530025568&#xA;https://www.facebook.com/groups/284674951892342" />
+		<Label Content="Tài khoản" HorizontalAlignment="Left" Margin="45,69,0,0" VerticalAlignment="Top" Width="97"/>
+		<Label Content="Mật khẩu" HorizontalAlignment="Left" Margin="45,141,0,0" VerticalAlignment="Top"/>
+		<TextBox Name="txtSearch" Text="mua chung cu"  HorizontalAlignment="Left" Height="23" Margin="18,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152"/>
+		<Label Content="Từ tìm kiếm" HorizontalAlignment="Left" Margin="45,225,0,0" VerticalAlignment="Top"/>
+		<Label Content="Tìm kiếm trong các Page (cách nhau bởi  'ENTER')" HorizontalAlignment="Left" Margin="182,34,0,0" VerticalAlignment="Top"/>
+	</Grid>
+</Window>
